@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.wcappcafe.copaamericask.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="170dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/shedule"
+
+                        android:layout_marginRight="22dp"
+
+
+
+                        android:layout_gravity="left"
+                        android:scaleType="fitXY"
+                        android:id="@+id/sheduleid"/>
+
+                    <ImageButton
+                        android:id="@+id/liveid"
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+
+
+                        android:layout_gravity="end"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/livescore" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/winid"
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:layout_gravity="left"
+
+                        android:layout_marginRight="22dp"
+
+                        android:scaleType="fitXY"
+                        android:src="@drawable/winners"
+                        android:text="Math" />
+
+                    <ImageButton
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:src="@drawable/stadium"
+
+                        android:layout_gravity="right"
+                        android:scaleType="fitXY"
+                        android:text="ICT"
+                        android:id="@+id/stadiumid"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/pointstableid"
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:layout_gravity="left"
+
+                        android:layout_marginRight="22dp"
+
+                        android:scaleType="fitXY"
+                        android:src="@drawable/points"
+                        android:text="Math" />
+
+                    <ImageButton
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:src="@drawable/team"
+
+                        android:layout_gravity="right"
+                        android:scaleType="fitXY"
+                        android:text="ICT"
+                        android:id="@+id/teamid"/>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/highid"
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:layout_gravity="left"
+
+                        android:layout_marginRight="22dp"
+
+                        android:scaleType="fitXY"
+                        android:src="@drawable/l1"
+                        android:text="Math" />
+
+                    <ImageButton
+                        android:layout_width="170dp"
+
+                        android:layout_height="130dp"
+                        android:src="@drawable/l2"
+
+                        android:layout_gravity="right"
+                        android:scaleType="fitXY"
+                        android:text="ICT"
+                        android:id="@+id/livetvid"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_width="170dp"
+
+                        android:layout_height="80dp"
+                        android:src="@drawable/ri"
+
+
+
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:text="ICT"
+                        android:id="@+id/recid"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:layout_height="wrap_content">
+                    <com.startapp.sdk.ads.banner.Banner
+                        android:id="@+id/startAppBanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true" />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
